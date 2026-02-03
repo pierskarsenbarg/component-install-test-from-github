@@ -1,0 +1,11 @@
+[project]
+name = "component-install-from-github"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "pierskarsenbarg-storage",
+    "pulumi>=3.0.0,<4.0.0",
+]
+
+[tool.uv.sources]
+pierskarsenbarg-storage = { path = "sdks/pierskarsenbarg-storage" }

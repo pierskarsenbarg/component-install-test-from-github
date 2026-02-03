@@ -1,0 +1,12 @@
+name: component-install-from-github
+description: testing speed of component installs from github
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
+packages:
+  storage: github.com/pierskarsenbarg/storage
