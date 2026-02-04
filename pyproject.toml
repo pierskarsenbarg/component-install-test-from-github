@@ -5,6 +5,7 @@ requires-python = ">=3.14"
 dependencies = [
     "pierskarsenbarg-storage",
     "pulumi>=3.0.0,<4.0.0",
+    "pulumi-azure-native>=3.13.0",
 ]
 
 [tool.uv.sources]
