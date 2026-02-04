@@ -10,6 +10,8 @@ jobs:
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v6
+            - name: Install UV
+              uses: astral-sh/setup-uv@v7
             - name: Install Pulumi
               uses: pulumi/actions@v6
               with: 
