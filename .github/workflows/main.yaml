@@ -5,7 +5,7 @@ on:
 
 jobs:
     do-install:
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         name: Do the install
         steps:
             - name: Checkout Repo
