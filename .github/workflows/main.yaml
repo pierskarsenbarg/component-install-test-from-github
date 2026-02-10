@@ -3,6 +3,9 @@ name: Install component from github
 on:
     workflow_dispatch
 
+permissions:
+  id-token: write
+
 jobs:
     do-install:
         runs-on: ubuntu-latest
