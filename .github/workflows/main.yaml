@@ -15,7 +15,8 @@ jobs:
               uses: pulumi/auth-actions@v1
               with:
                 organization: demo
-                requested-token-type: urn:pulumi:token-type:access_token:organization
+                requested-token-type: urn:pulumi:token-type:access_token:personal
+                scope: user:pierskarsenbarg
             - name: Checkout Repo
               uses: actions/checkout@v6
             - name: Install UV
