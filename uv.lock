@@ -95,7 +95,7 @@ wheels = [
 
 [[package]]
 name = "pierskarsenbarg-storage"
-version = "0.0.0+xbdb22d3731c678e42655fa808f77b23632e8c5c9"
+version = "0.0.0+x7f9c6d3168a4aa15dacee712fd4606ec34392a99"
 source = { directory = "sdks/pierskarsenbarg-storage" }
 dependencies = [
     { name = "parver" },

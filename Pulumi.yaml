@@ -9,4 +9,4 @@ config:
     value:
       pulumi:template: python
 packages:
-  storage: github.com/pierskarsenbarg/storage@bdb22d3731c678e42655fa808f77b23632e8c5c9
+  storage: github.com/pierskarsenbarg/storage
