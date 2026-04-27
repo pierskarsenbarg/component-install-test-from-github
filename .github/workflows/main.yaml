@@ -30,4 +30,4 @@ jobs:
             - name: Run pulumi install
               run: pulumi install
             - name: Pulumi Preview
-              run: pulumi preview -s demo/dev
+              run: pulumi up -s demo/dev -y 
